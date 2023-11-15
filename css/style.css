@@ -1,0 +1,165 @@
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+img{
+    object-fit: cover;
+}
+
+button{
+    background-color: red;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1vh;
+    color: white;
+    padding-top: 12vh;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+}
+
+header{
+    background-image: url(../img/Headerbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+header p{
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    margin-top: 7vh;
+    margin-bottom: 13vh;
+}
+
+main p{
+    color: black;
+}
+
+main h1{
+    color: black;
+    font-size: 4rem;
+    padding: 5vh;
+}
+
+.border{
+    border: solid;
+    border-radius: 10px;
+}
+
+.ashes{
+    background-image: url(../img/ashestoashes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.youtube-logo img{
+    max-width: 4vw;
+    margin-left: 6.5vw;
+    padding-top: 25vh;
+}
+
+.Heroes{
+    background-image: url(../img/Heroes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Heroes h2{
+    color: white;
+}
+
+.Space{
+    background-image: url(../img/David_Bowie_Space_Oddity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Space h2{
+    color: white;
+}
+
+.life{
+    background-image: url(../img/Life_on-mars.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-David{
+    width: 60%;
+    margin: auto;
+}
+
+.about-David h2{
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    margin-top: 9vh;
+    margin-bottom: 5vh;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.footer-container {
+    border-top: solid;
+    background-image: url(../img/footer-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+}
+
+
+.content-footer {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    flex: 1;
+    margin-right: 3vw;
+    padding-top: 24vh;
+    padding-bottom: 0px;
+}
+
+.copyright {
+    margin-left: 4vw;
+    flex: 5;
+}
+
+.copyright p {
+    margin-top: 0px;
+    margin-right: auto;
+}
+
+.socialmediaLogos {
+    gap: 5px;
+    margin-left: 0px;
+    padding-bottom: 4vh;
+    justify-content: flex-start;
+}
+
+.socialmediaLogos a {
+    flex: 1;
+    gap: 10px;
+}
+
+.socialmediaLogos img {
+    height: auto;
+    max-width: 4%;
+}
+
+    
